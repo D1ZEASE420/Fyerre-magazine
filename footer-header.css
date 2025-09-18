@@ -75,11 +75,17 @@ input {
 
 .footer-sign-up-box {
     display: flex;
+    flex-direction: row ;
+    gap: 1rem;
+    align-items: center;
 }
 
 .footer-sign-up > button {
-    padding: 1rem;
+    padding: 1rem 2rem;
     border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
     
 }
 
